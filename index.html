@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cássio Gabriel - Portfólio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg p-2 ">
+        <a href="#presetation" class="navbar-brand d-none d-lg-block  text-light">
+            <strong>Cássio Gabriel</strong>
+        </a>
+        <div class="d-block d-lg-none ">
+            <ul class="nav d-flex ">
+                <li class="nav-item ">
+                    <a class="nav-link text-light" href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <a href="#presatetion" class="navbar-brand d-block d-lg-none text-light">
+            <strong>Cássio Gabriel</strong>
+        </a>
+
+        <nav class="navbar navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Alterna navegação" id="btn-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <div class="navbar-collapse collapse justify-content-center" id="navbar4">
+            <ul class="navbar-nav d-flex ">
+                <li class="nav-item d-flex">
+                    <i class="fa-solid fa-lightbulb text-light"></i>
+                    <a class="nav-link text-light  mx-auto" href="#Knowledgeknowledge">
+                        Skill
+                    </a>
+                </li>
+
+                <li class="nav-item d-flex">
+                    <a class="nav-link text-light  mx-auto" href="#Teaching">
+                        ENSINO
+                    </a>
+                </li>
+
+                <li class="nav-item d-flex">
+                    <a class="nav-link text-light  mx-auto" href="#Experience">
+                        EXPERIÊNCIA
+                    </a>
+                </li>
+
+                <li class="nav-item d-flex">
+                    <a class="nav-link text-light  mx-auto" href="#project">
+                        PROJETOS
+                    </a>
+                </li>
+
+                <li class="nav-item d-flex">
+                    <a class="nav-link text-light  mx-auto" href="#network">
+                        CONTATO
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="presetation">
+        <div class="row">
+            <div class="col-12 d-flex p-3">
+                <div class="mx-auto">
+                    <p class="line typing-animation">
+                        Seja bem vindo ao
+                        meu&nbsp;
+                        <strong>
+                            Portfólio!
+                        </strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="text mx-auto ">
+                        Hello, Eu me chamo&nbsp;
+                        <strong>
+                            Cássio Gabriel
+                        </strong>
+                        <br />
+                        sou um intusiasta da T.I,
+                        <br />
+                        curioso por natureza, e
+                        <br />
+                        apaxinado por programação,
+                        <br />
+                        por favor veja um
+                        pouquinho
+                        <br />
+                        da minha história.
+                        <br />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="imgpresetation">
+                        <img class="p-2" src="assets/img/cover.png" alt="cover" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <img src="assets/img/Biblioteca.png" onclick="loadskill(2)" alt=""> -->
+    </div>
+
+    <div class="container-fluid" id="Knowledgeknowledge">
+        <div class="row d-flex" id="ordem-col-md">
+            <div class="col-md-9 mx-auto text-center ">
+                <div class="row d-flex flex-nowra">
+                    <div class="col-md-6 order-md-2">
+                        <br />
+                        <div class="zoom-skill">
+                            <h5>
+                                <strong>
+                                    Minhas principais ferramentas
+                                </strong>
+                            </h5>
+                            <div class="scroll-toolskill">
+                                <div id="toolskill"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-cotainer card col-md-6 order-md-1">
+                        <strong>
+                            <h4 id="icon-title">titulo</h4>
+                        </strong>
+                        <div class="row">
+                            <div class="col-6">
+                                <strong>
+                                    <h5>
+                                        Nível da habilidade
+                                    </h5>
+                                </strong>
+                                <p id="nivel-skill" class="text-dark"></p>
+                            </div>
+                            <div class="col-6">
+                                <div class="chosenItem">
+                                    <img id="icon-skill" draggable="true" src="./assets/img/icons/htmlIcon.svg"
+                                        alt="HTML Ícone" />
+                                </div>
+                            </div>
+                        </div>
+                        <strong>
+                            <h5>Informações</h5>
+                        </strong>
+                        <p id="inf-skill" class="text-dark"></p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <br />
+    </div>
+
+    <div class="container-fluid" id="Teaching">
+        <div class="row d-flex">
+            <div class="col-md-9 mx-auto text-center ">
+                <h3>
+                    <strong>
+                        Minha Historia de Ensino.
+                    </strong>
+                </h3>
+            </div>
+
+            <div class="col-md-9 mx-auto ">
+                <div class="card">
+                    <div class="card-header Exibir">
+                        <strong>
+                            <label>Técnico em Informática</label>
+                        </strong>
+                    </div>
+                    <div id="" class="body collapse">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 text-black">
+                                    <center><strong>Técnico em Informática - Integrado (2017-2019)</strong></center>
+                                    <p>
+
+                                        O curso Técnico em Informática tem como objetivo qualificar profissionais a fim
+                                        de atender às necessidades do mercado, promovendo a inclusão digital como
+                                        instrumento de desenvolvimento socioeconômico dos educandos e região onde estão
+                                        inseridos. Para tanto, pretende-se:<br />
+                                        - Estabelecer relações entre as bases tecnológicas das disciplinas do curso e
+                                        destas com as teorias, conhecimentos e habilidades necessárias à atuação do
+                                        Técnico em Informática;<br />
+                                        - Proporcionar a apropriação de conhecimentos – da ciência, tecnologia, da
+                                        cultura e do trabalho – envolvidos de forma indissociável na atuação enquanto
+                                        Técnicos em Informática;<br />
+                                        - Oportunizar aos estudantes do Curso Técnico em Informática do IFNMG – Campus
+                                        Arinos, sólida formação que assegure o seu ingresso no mundo do trabalho e a
+                                        continuidade da elevação do nível escolar como forma de realização pessoal e
+                                        profissional.<br />
+                                        - Nome do curso: Curso Técnico em Informática Integrado ao Ensino Médio<br />
+                                        - Modalidade: Presencial<br />
+                                        - Tipo: Técnico Integrado<br />
+                                        - Habilitação: Técnico em Informática<br />
+                                        - Ano de implantação: 2009<br />
+                                        - Ato de autorização: Portaria Nº 009 de 22 de janeiro de 2010<br />
+                                        - Total de vagas ofertadas anualmente: 70 vagas<br />
+                                        - Número de vagas ofertadas por turma: 35 vagas<br />
+                                        - Formas de acesso: Processo Seletivo após conclusão do ensino fundamental e
+                                        transferência na forma da lei<br />
+                                        - Número de vagas disponibilizadas: 100% Processo Seletivo<br />
+                                        - Periodicidade de ingresso: 1º Semestre<br />
+                                        - Turno de funcionamento: Diurno<br />
+                                        - Tempo para integralização do curso: 3 e máximo de 6 anos. O aluno estará apto
+                                        a receber o diploma após a integralização da carga horária do curso, incluindo o
+                                        estágio.<br />
+                                        - Resultados obtidos nas últimas avaliações realizadas pelo MEC:Não se
+                                        aplica<br />
+                                        - Perfil do egresso:<br />
+                                        O profissional egresso do Curso Técnico em Informática deverá demonstrar as
+                                        capacidades de:
+                                        - Identificar o funcionamento e relacionamento entre os componentes de
+                                        computadores e seus periféricos;<br />
+                                        - Instalar e configurar computadores, isolados ou em redes, periféricos e
+                                        softwares;<br />
+                                        - Identificar a origem de falhas no funcionamento de computadores, periféricos e
+                                        softwares avaliando seus efeitos;<br />
+                                        - Identificar necessidades de aquisição e aplicar métodos de conservação e
+                                        manutenção de computadores e softwares;<br />
+                                        - Analisar e operar os serviços e funções de sistemas operacionais;<br />
+                                        - Selecionar programas de aplicação a partir da avaliação das necessidades do
+                                        usuário;<br />
+                                        - Desenvolver algoritmos e aplicá-los a uma linguagem de programação;<br />
+                                        - Realizar procedimentos para operação de Banco de Dados;<br />
+                                        - Compreender a arquitetura de redes;<br />
+                                        - Instalar os dispositivos de rede, os meios físicos, software de controle
+                                        desses dispositivos, analisando seu funcionamento e relações entre eles;<br />
+                                        - Planejar, criar, implantar e dar manutenção em páginas Web estáticas e
+                                        dinâmicas;<br />
+                                        - Dar suporte ao usuário, implantando aplicativos e utilitários, tirando dúvidas
+                                        e orientando os mesmos.<br />
+                                        <center><strong> Matriz curricular do curso <a
+                                                    href="assets/pdfs/Tecnico.pdf">PDF</a></strong>
+                                        </center>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 mx-auto ">
+                <div class="card">
+                    <div class="card-header Exibir">
+                        <strong>
+                            <label>Bacharelado em Sistemas de Informação</label>
+                        </strong>
+                    </div>
+                    <div id="" class="body collapse">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 text-dark">
+                                    <p>
+                                        - O curso de bacharelado em Sistemas de Informação do IFNMG Campus Arinos tem
+                                        por
+                                        objetivo básico formar recursos humanos com sólido conhecimento em informática e
+                                        que
+                                        atuem profissionalmente na pesquisa, desenvolvimento e gestão de Sistemas de
+                                        Informação propondo soluções tecnológicas alinhadas às necessidades das
+                                        organizações, comprometidos com o seu papel social e profissional, no sentido de
+                                        contribuir para o avanço tecnológico e científico calcado em valores
+                                        humanísticos e
+                                        éticos como preconizado pela Sociedade Brasileira de Computação e tendo como
+                                        pressuposto que o comprometimento do homem com sua região é fator preponderante
+                                        no
+                                        desenvolvimento social, cultural e tecnológico.<br />
+                                        - Nome do curso: Bacharelado em Sistemas de Informação<br />
+                                        - Modalidade: Presencial<br />
+                                        - Tipo: Bacharelado<br />
+                                        - Habilitação: Bacharelado em Sistemas de Informação<br />
+                                        - Ano de implantação: 2016<br />
+                                        - Ato de autorização: Portaria n° 0847/2015 – Reitor/ 2015 e Resolução CS
+                                        n°13/2015<br />
+                                        de 26 de novembro de 2015<br />
+                                        - Total de vagas ofertadas anualmente: 40<br />
+                                        - Número de vagas ofertadas por turma: 40<br />
+                                        - Formas de acesso: Vestibular e SISU<br />
+                                        - Número de vagas disponibilizadas: 50% Vestibular - 50% SISU<br />
+                                        - Periodicidade de ingresso: Anual<br />
+                                        - Turno de funcionamento: Diurno ou Noturno<br />
+                                        - Tempo para integralização do curso: O prazo mínimo para integralização
+                                        curricular
+                                        são de 4 anos (8 semestres) e o prazo máximo são de 6 anos (12 semestres)<br />
+                                        - Resultados obtidos nas últimas avaliações realizadas pelo MEC: (Nota da
+                                        avaliação
+                                        in loco – SINAES; Nota do ENADE) Curso ainda não avaliado<br />
+                                        - Perfil do egresso<br />
+                                        As organizações contemporâneas têm na tecnologia da informação um elemento
+                                        estratégico, na medida em que as soluções tecnológicas automatizam processos
+                                        organizacionais e são fonte de vantagens competitivas através da análise de
+                                        cenários, apoio ao processo decisório e definição e implementação de novas
+                                        estratégias organizacionais. Assim, cresce a preocupação com a coleta,
+                                        armazenamento, processamento e transmissão da informação à medida que a
+                                        disponibilidade da informação certa, no momento certo, para o tomador de decisão
+                                        certo, é requisito fundamental para a melhoria contínua da qualidade e
+                                        competitividade organizacionais, o que implica em considerar a crescente
+                                        relevância
+                                        dos Sistemas de informação baseados em computador. Espera-se que os egressos dos
+                                        cursos de Sistemas de Informação:<br />
+                                        Possuam uma sólida formação em Computação, Matemática e Administração visando o
+                                        desenvolvimento e a gestão de soluções baseadas em tecnologia da informação para
+                                        os
+                                        processos de negócio das organizações, de forma que atinjam efetivamente seus
+                                        objetivos estratégicos de negócio;<br />
+                                        Possam determinar os requisitos e desenvolver os Sistemas de informação das
+                                        organizações, assegurando que elas tenham as informações e os sistemas de que
+                                        necessitam para prover suporte às suas operações e obter vantagem competitiva;
+                                        Sejam capazes de inovar, planejar e gerenciar a infraestrutura de tecnologia da
+                                        informação em organizações, bem como desenvolver e evoluir sistemas de
+                                        informação
+                                        para uso em processos organizacionais, departamentais e/ou individuais;
+                                        Possam escolher e configurar equipamentos, sistemas e programas para a solução
+                                        de
+                                        problemas que envolvam a coleta, processamento e disseminação de informações;
+                                        Entendam o contexto, envolvendo as implicações organizacionais e sociais, no
+                                        qual as
+                                        soluções de sistemas de informação são desenvolvidas e implantadas;<br />
+                                        Compreendam os modelos e as áreas de negócios, atuando como agentes
+                                        transformadores
+                                        no contexto organizacional e social;<br />
+                                        Possam desenvolver um pensamento sistêmico que o permita analisar e entender os
+                                        problemas organizacionais;<br />
+                                        Ser uma pessoa ética, cidadã e profissional, cumprindo deveres, respeitando as
+                                        diferenças culturais, sociais e religiosas;<br />
+                                        Ter uma visão humanística crítica e consistente sobre o impacto de sua atuação
+                                        profissional na sociedade e meio ambiente;<br />
+                                        Ser capaz de interagir com outras profissões com o intuito de compreender a
+                                        realidade dos mesmos para propor soluções computacionais eficazes nas soluções
+                                        de
+                                        problemas.<br />
+                                        <center><strong> Matriz curricular do curso <a
+                                                    href="assets/pdfs/BSI.pdf">PDF</a></strong>
+                                        </center>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 mx-auto ">
+                <div class="card">
+                    <div class="card-header Exibir">
+                        <strong>
+                            <label>Outros</label>
+                        </strong>
+                    </div>
+                    <div id="" class="body collapse">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 text-dark">
+                                    <center><strong>Mini Cursos</strong></center>
+                                    <strong>PHP - Laravel </strong>:
+                                    <a href=" https://youtube.com/playlist?list=PLnDvRpP8BnewYKI1n2chQrrR4EYiJKbUG">Curso
+                                        de Laravel</a>
+                                    <br />
+                                    <strong>PHP - Laravel </strong>:
+                                    <a href="https://youtube.com/playlist?list=PLcoYAcR89n-reidRFA3XCIvQPeKFt4dQU">Curso
+                                        gratuito Laravel 9 INTRO</a>
+                                    <br />
+                                    ✅ MVC<br />
+                                    ✅ Rotas e controllers<br />
+                                    ✅ Assets, Laravel MIX<br />
+                                    ✅ Blade template<br />
+                                    ✅ Migration, factories e seeders<br />
+                                    ✅ Eloquent e relacionamentos<br />
+                                    ✅ Formulário e validação<br />
+                                    ✅ Paginação<br />
+                                    <strong>JAVA - Spring Boot</strong>:
+                                    <a href=" https://youtube.com/playlist?list=PLiXotHlANc8ptwP6wajo73OZo9Nh5i597">Curso
+                                        API RESTful com JAVA com Spring Boot
+                                    </a>
+                                    <br />
+                                    ✅ Neste curso é abordado como criar uma API Restful utilizando o framework Spring
+                                    Boot da linguagem Java.<br />
+                                    Conteúdo inclui vídeo aulas de explicações teóricas, instalação de
+                                    ferramentas,<br />
+                                    prática focada no código e como consumir a API pelo Postman e uma simples interface
+                                    web em HTML, CSS e JavaScript (também com a biblioteca Booststrap).<br />
+                                    <strong>POO (Programação Orientada a Objetos)</strong>
+                                    <a href=" https://youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY">Curso
+                                        Curso de POO Java (Programação Orientada a Objetos)
+                                    </a>
+                                    <br />
+                                    <strong>Banco de Dados com MySQL</strong>
+                                    <a href="https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r">Curso
+                                        Curso de Banco de Dados MySQL
+                                    </a>
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="Experience">
+        <div class="row d-flex">
+            <div class="col-md-9 mx-auto text-center ">
+                <h3>
+                    <strong>
+                        <br />
+                        <br />
+                        Minha Carreira de
+                        Trabalho.
+                    </strong>
+                </h3>
+            </div>
+            <div class="col-md-9 mx-auto ">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">
+                                    <strong>
+                                        7 System
+                                    </strong>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12 text-dark">
+                                7 System: “A 7system Informática foi fundada em junho de 2003 para atender a necessidade
+                                de automação dos supermercados da família e percebendo a eficácia do nosso software
+                                abrimos as portas para atender outras empresas, Nosso principal produto, o programa
+                                7System, foi criado com base nos mais de 40 anos de experiência em administração de
+                                supermercados, unindo experiência com tecnologia para gerar um dos mais completos e
+                                simples softwares para automação comercial. Simples devido a fácil associação com o dia
+                                a dia da empresa e fácil aprendizado, completo por resumir todo o movimento da empresa
+                                em um único software”
+                                Já fazem mais de 8 meses que trabalho na empresa como suporte trabalhando diretamente
+                                com o cliente, Prospecção de novos clientes, tira dúvidas soluções dos mais diversos
+                                problemas, no entanto já faz cerca de 5 meses que estou desenvolvendo um sistema de (OS)
+                                Ordem de Serviços para empresa Obs: já está na fase de testes, eu fui o único a no
+                                desenvolvimento
+                                fiz tanto o Front-end quanto o Back-end. está sendo uma experiência incrível, que está
+                                me fazendo crescer e muito como profissional de T.I.
+                                Linkedin da empresa <a href="https://www.linkedin.com/company/7-system/">7System</a>.
+                            </div>
+                            <div class="col-md-12 collapse">
+                                INFORMAÇÕES
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+    </div>
+
+    <div class="container-fluid" id="Game">
+        <div class="row d-flex">
+            <div class="col-md-9 mx-auto text-center ">
+                <div class="col-12">
+                    <strong>Jogue e se ganhar descubra minha Historia de vida</strong>
+                    <div class="dica">Oque é oque é, quando pequeno cabe na ponta do dedo,<br /> e se estiver em um
+                        anbiente
+                        favoravel pode se tornar 2X maior que o Cristo Redentor</div>
+                </div>
+                <div class="col-12">
+                    <div class="row mx-auto" id="palavra_errada">
+
+                    </div>
+                    <div class="row mx-auto">
+                        <div>
+                            <br />
+                            <input class="PS-game" type="text" pattern="[a-z\s]+$" maxlength="1" />
+                            <input class="PS-game" type="text" pattern="[a-z\s]+$" maxlength="1" />
+                            <input class="PS-game" type="text" pattern="[a-z\s]+$" maxlength="1" />
+                            <input class="PS-game" type="text" pattern="[a-z\s]+$" maxlength="1" />
+                            <input class="PS-game" type="text" pattern="[a-z\s]+$" maxlength="1" />
+                            <input class="PS-game" type="text" pattern="[a-z\s]+$" maxlength="1" />
+                            <input class="PS-game" type="text" pattern="[a-z\s]+$" maxlength="1" />
+                            <button class="btn btn-primary" onclick="game_termo()">Enviar</button>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+
+        <div class="container-flui collapse" id="my-History">
+            <div class="row d-flex">
+                <div class="col-md-9 mx-auto text-center ">
+                    <div class="col-12">
+                        <strong>Parabens!, conheça minha historia</strong>
+                    </div>
+                    <div class="col-md-9 mx-auto text-center ">
+                        <div class="col-12 ">
+                            Eu me chamo Cássio Gabriel Lemos Vieira nasci em 28/09/2000,
+                            em uma cidade no interior de Minas Gerais Brasil chamada de Riachinho.
+                            filho de Maria Ildenice, e Carlinhos Lemos, Professora e Agricultora.
+                            Sempre foi muito curioso minha maior diversão quando eu ganhava algum brinquedo era
+                            desmonta-lo e remontá-lo sem ajuda de ninguém só pra ver se eu era capaz.
+                            lembro-me de que quando tinha em torno de 6 anos de idade que ganhei um carrinho de controle
+                            remoto eu brinquei com ele por algumas horas porém eu fiquei tão curioso que desmontei ele
+                            só pra ver como ele funcionava porem não entendi nada isso me deixou muito mais chateado do
+                            que ele não ter voltado a funcionar kkk.
+                            No entanto com 8 anos de idade minha mãe ganhou um Computador, ela tinha medo de mexer nele
+                            pois temia que iria estragá-lo porém sempre que podia eu me escondia para mexer nele sem
+                            mesmo internet só mexendo no .bat eu conseguir fazer abrir uma pasta isso me deixou
+                            fascinado apaixonado, curioso como sou queria saber cada vez mais como aquilo é possível e
+                            isso me fez cursar um curso de T.I integrado com ensino médio e BSI em IFNMG e continuo
+                            escrevendo a minha História...<br /><br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid" id="project">
+        <div class="row d-flex">
+            <div class="col-md-9 mx-auto text-center ">
+                <div class="card-group">
+
+                    <div class="card m-1 card-project-main">
+                        <img class="card-img-top" src="assets/img/projects/OS.png" alt="Imagem de capa do card">
+                        <div class="card-body text-black">
+                            <strong>
+                                <h5 class="card-title">(OS) 7System</h5>
+                            </strong>
+                            <p class="card-text">
+                                Este é o segundo projeto que mais gostei de fazer, que mais me fez evoluir na
+                                programação, É uma ordem de serviço eletronica foi feito pois eu vi que na empresa que
+                                trabalho não oferecia esse tipo de serviço fazendo que deixasse de atender inúmeros
+                                clientes.
+                                após autorizado pelo dono da empresa fiz o projeto e hoje está na fase de
+                                testes..<br /><br />
+                                Tecnologias utilizadas: ✅HTML ✅CSS ✅JS ✅AJAX ✅PHP ✅BOOTSTRAP
+                            </p>
+                            <center>Privado:<strong><a
+                                        href="https://github.com/Ninguem2k/ Ninguem2k/7System_OS.git">GitHub</a></strong>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="card m-1 card-project-main">
+                        <img class="card-img-top" src="assets/img/projects/1Ecommerce.png" alt="Imagem de capa do card">
+                        <div class="card-body text-black">
+                            <strong>
+                                <h5 class="card-title">1# Ecommerce</h5>
+                            </strong>
+                            <p class="card-text">
+                                Este foi um projeto que coloquei oque aprendir durante minha formação em Tecnico em
+                                informatica sem nem um cliterio especifico sem padrão de projeto fiz só para fiz
+                                educacionais!<br /><br />
+                                Tecnlogias ultilizadas: ✅HTML ✅CSS ✅JS ✅PHP ✅BOOSTRAP
+                            </p>
+                            <center><strong><a
+                                        href="https://github.com/Ninguem2k/1Primeiro-Ecommerce-2018">GitHub</a></strong>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="card m-1 card-project-main">
+                        <img class="card-img-top" src="assets/img/projects/2Ecommerce.png" alt="Imagem de capa do card">
+                        <div class="card-body text-black">
+                            <strong>
+                                <h5 class="card-title">2# Ecommerce</h5>
+                            </strong>
+                            <p class="card-text">
+                                Este foi um projeto que foi solicitado por uma empresa de eletronicos no entanto
+                                no meio do projeto houve contra tempos que levaram o cancelamento do
+                                desenvolvendo.<br /><br />
+                                Tecnlogias ultilizadas: ✅HTML ✅CSS ✅JS ✅PHP ✅LARAVEL ✅BOOSTRAP
+                            </p>
+                            <center><strong><a
+                                        href="https://github.com/Ninguem2k/MS-ecommerce-laravel.git">GitHub</a></strong>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="card m-1 card-project-main">
+                        <img class="card-img-top" src="assets/img/projects/Biblioteca.png" alt="Imagem de capa do card">
+                        <div class="card-body text-black">
+                            <strong>
+                                <h5 class="card-title">Blioteca-Java</h5>
+                            </strong>
+                            <p class="card-text">
+                                Este projeto foi criado para a matéria de LTP2 foi criado por mim e por mais dois
+                                integrantes do grupo esse projeto é uma versão não finalizada a versão finalizada não
+                                conseguir encontrar, não tem nem um tipo de padrão nem mesmo a utilização de POO já que
+                                foi um projeto feio as pressas. <br /><br />Tecnologias utilizadas: ✅JAVA
+                            </p>
+                            <center>Privado:<strong><a
+                                        href="https://github.com/Ninguem2k/Biblioteca-JAVA">GitHub</a></strong></center>
+                        </div>
+                    </div>
+                    <div class="card m-1 card-project-main">
+                        <img class="card-img-top" src="assets/img/projects/1Ecommerce.png" alt="Imagem de capa do card">
+                        <div class="card-body text-black">
+                            <strong>
+                                <h5 class="card-title">sistema cofecção</h5>
+                            </strong>
+                            <p class="card-text">
+                                Este é o meu projeto favorito até o momento, estou criando com um grupo formado por 6
+                                integrantes, onde sou gerente de projeto e scrum master, o que mais está me chamando
+                                atenção é a criar um projeto para uma empresa real, em equipe, fazendo-me sentir mais
+                                capacitado para o mercado de trabalho! .<br />
+                                Tecnologias utilizadas: ✅React ✅JAVA ✅Spring Boot ✅Scrum
+                            </p>
+                            <center><strong><a
+                                        href="https://github.com/Ninguem2k/code-makers-aps-ii">GitHub</a></strong>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="card m-1 card-project-main">
+                        <img class="card-img-top" src="assets/img/projects/Portfolio.png" alt="Imagem de capa do card">
+                        <div class="card-body text-black">
+                            <strong>
+                                <h5 class="card-title">Portfólio</h5>
+                            </strong>
+                            <p class="card-text">
+                                Este Projeto eu utilizei como base o Portfólio do meu amigo
+                                <a href="https://github.com/NikisGabriel">
+                                    Gabriel Marques
+                                </a> porém optei por recriar invés de clonar o repositório dele aplicando algumas
+                                alterações como a utilização de BOOTSTRAP e responsabilidade.<br /><br />
+                                Tecnlogias ultilizadas: ✅HTML ✅CSS ✅JS ✅BOOSTRAP
+                            </p>
+                            <center><strong><a href="https://github.com/Ninguem2k/Portifolio">GitHub</a></strong>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <nav aria-label="Navegação de página exemplo">
+                    <ul class="pagination justify-content-end">
+                        <li class="page-item"><button class="page-link" onclick="setPage_atual(1)">1</button></li>
+                        <li class="page-item"><button class="page-link" onclick="setPage_atual(2)">2</button></li>
+                        <!-- <li class="page-item"><button class="page-link" onclick="setPage_atual(3)">3</button></li> -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    </div>
+    <footer id="network">
+        <div class="footerContainer">
+            <div class="networks">
+                <a href="https://www.linkedin.com/in/cássio-gabriel-lemos-vieira-b24771246" target="_blank"><img
+                        src="./assets/img/icons/linkedinIcon.svg" alt="LinkedIn ícone" /></a>
+                <a href="https://github.com/Ninguem2k" target="_blank"><img src="./assets/img/icons/githubIcon.svg"
+                        alt="Github ícone" /></a>
+                <a href="mailto:cassioriachi0nho@gmail.com" target="_blank"><img src="./assets/img/icons/emailIcon.svg"
+                        alt="Email ícone" /></a>
+                <a href="https://wa.me/5538999256330" target="_blank"><img src="./assets/img/icons/phoneIcon.svg"
+                        alt="Phone ícone" /></a>
+            </div>
+            <small>
+                &copy; Copyright&nbsp;
+                <a href="https://github.com/NINGUEM2K">
+                    Cássio Gabriel /
+                </a>
+                <a href="https://github.com/NikisGabriel">
+                    Gabriel Marques
+                </a>
+            </small>
+        </div>
+    </footer>
+
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/skill.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/game.js"></script>
+    <script src="./assets/js/projects.js"></script>
+</body>
+
+</html>

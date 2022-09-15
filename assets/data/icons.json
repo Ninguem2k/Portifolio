@@ -1,0 +1,70 @@
+[
+  {
+    "url": "./assets/img/icons/htmlIcon.svg",
+    "alt": "html ícone"
+  },
+  {
+    "url": "./assets/img/icons/cssIcon.svg",
+    "alt": "css ícone"
+  },
+  {
+    "url": "./assets/img/icons/jsIcon.svg",
+    "alt": "java script ícone"
+  },
+  {
+    "url": "./assets/img/icons/bootstrapIcon.svg",
+    "alt": "bootstrap ícone"
+  },
+  {
+    "url": "./assets/img/icons/sassIcon.svg",
+    "alt": "sass ícone"
+  },
+  {
+    "url": "./assets/img/icons/.svg",
+    "alt": " ícone"
+  },
+  {
+    "url": "./assets/img/icons/styledIcon.svg",
+    "alt": "styled ícone"
+  },
+  {
+    "url": "./assets/img/icons/tsIcon.svg",
+    "alt": "type script ícone"
+  },
+  {
+    "url": "./assets/img/icons/reactIcon.svg",
+    "alt": "react ícone"
+  },
+  {
+    "url": "./assets/img/icons/firebaseIcon.svg",
+    "alt": "firebase ícone"
+  },
+  {
+    "url": "./assets/img/icons/apiIcon.svg",
+    "alt": "APIs ícone"
+  },
+  {
+    "url": "./assets/img/icons/figmaIcon.svg",
+    "alt": "figma ícone"
+  },
+  {
+    "url": "./assets/img/icons/databaseIcon.svg",
+    "alt": "databases ícone"
+  },
+  {
+    "url": "./assets/img/icons/authIcon.svg",
+    "alt": "auth ícone"
+  },
+  {
+    "url": "./assets/img/icons/vscodeIcon.svg",
+    "alt": "vs code ícone"
+  },
+  {
+    "url": "./assets/img/icons/nextIcon.svg",
+    "alt": "nextJS ícone"
+  },
+  {
+    "url": "./assets/img/icons/nodeIcon.svg",
+    "alt": "node ícone"
+  }
+]
