@@ -45,23 +45,15 @@ const iconsData = [
     alt: "Laravel ícone",
   },
   {
-    id: 06,
-    title: "Bootstrap",
-    conhecimento: "Intermediário",
-    texto:
-      "Uma das primeiras ferramentas que aprendi foi o <b>Bootstrap</b> para a criação de layouts concisos e responsivos de maneira mais rápida, possuo conhecimento na implementação do seu sistema de <b>Grid</b> com rows e columns ",
-    url: "./assets/img/icons/bootstrapIcon.svg",
-    alt: "bootstrap ícone",
-  },
-  {
     id: 07,
     title: "JAVA",
     conhecimento: "Básico - Intermediário",
     texto:
       "Eu aprendi algoritmo ou seja lógica de programação com <b>PASCAL</b> no primeiro ano do ensino Técnico e no segundo ano na matéria desenvolvimento de sistema foi utilizado a linguagem <b>JAVA</b> e na faculdade na matéria de LTP2 (Linguagens e Técnicas de Programação) a linguagem foi utilizada.",
-    url: "./assets/img/icons/java-icon.svg",
+    url: "./assets/img/icons/javaicon.svg",
     alt: "JAVA ícone",
   },
+
   {
     id: 08,
     title: "Spring Boot",
@@ -70,6 +62,15 @@ const iconsData = [
       "Na matéria de (APS2) Análise e Projeto de Software II, foi proposto um projeto real e a linguagem que melhor se encaixa no projeto  foi o <b>JAVA</b> e  por isso o time de desenvolvimento optou por utilizar o framework e por essa razão estou estudado ele principalmente na criação de APIrestful",
     url: "./assets/img/icons/spring_boot-icon.svg",
     alt: "Spring Boot ícone",
+  },
+  {
+    id: 06,
+    title: "Bootstrap",
+    conhecimento: "Intermediário",
+    texto:
+      "Uma das primeiras ferramentas que aprendi foi o <b>Bootstrap</b> para a criação de layouts concisos e responsivos de maneira mais rápida, possuo conhecimento na implementação do seu sistema de <b>Grid</b> com rows e columns ",
+    url: "./assets/img/icons/bootstrapIcon.svg",
+    alt: "bootstrap ícone",
   },
   {
     id: 09,
