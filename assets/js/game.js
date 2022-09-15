@@ -12,14 +12,12 @@ function game_termo() {
 
   var value_input = validar_input(input_termo);
   var value_termo = termo_array(termo);
+
   function validar_input(array) {
     var array_input = [];
     for (let index = 0; index < array.length; index++) {
-      if (array[index].value === "") {
-        alert("Preencha todos os campos Obs: não tem espaço");
-        return false;
-      } //Ativar para inpedir inpuit vazio
       array_input[index] = array[index].value.toUpperCase();
+      next_input(index);
     }
     return array_input;
   }
@@ -87,15 +85,30 @@ function game_termo() {
       return "red";
     }
   }
+
   function verificar_se_venceu() {
     if (acertos.length === 7) {
       document.getElementById("my-History").classList.toggle("collapse");
     }
   }
 }
-//passar pro proximo input
-for (var i = 0; i < input_termo.length; i++) {
-  input_termo[i].addEventListener("keypress", function (e) {
-    nextInput[e].focus();
-  });
+
+function next_input(casa) {
+  var input_posicao = document.getElementsByClassName("PS-game");
+  if (casa !== 0) {
+    if (input_posicao[casa - 1].value === " ") {
+      input_posicao[casa - 1].value = "";
+      return alert("preencha o campo!");
+    }
+  }
+
+  if (casa === input_posicao.length) {
+    game_termo();
+    for (let index = 0; index < input_posicao.length; index++) {
+      input_posicao[index].value = "";
+    }
+    input_posicao[0].focus();
+  } else {
+    input_posicao[casa].focus();
+  }
 }
