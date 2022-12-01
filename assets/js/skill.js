@@ -153,7 +153,7 @@ const iconsData = [
     title: "Idiomas",
     conhecimento: "Avançado",
     texto:
-      "Hoje eu estudo ou falo 3 línguas O <b>Portugues, Espanhol e o Inglês</b><br/> Portugues já sou fluente já que é minha língua materna. <br/> Espanhol já tenho uma facilidade na compreensão porém um pouco de dificuldade com os falsos cognatos<br/> E atualmente estou estudando o inglês pois acredito que deve ser um soft skill fundamental para todos os programadores ",
+      "Hoje eu estudo O <b>Portugues, Espanhol e o Inglês</b><br/> Portugues já sou fluente já que é minha língua materna. <br/> Espanhol já tenho uma facilidade na compreensão porém um pouco de dificuldade com os falsos cognatos<br/> E atualmente estou estudando o inglês pois acredito que deve ser um soft skill fundamental para todos os programadores ",
     url: "./assets/img/icons/translate.svg",
     alt: "translate ícone",
   },
