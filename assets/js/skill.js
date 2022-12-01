@@ -40,7 +40,7 @@ const iconsData = [
     title: "Laravel",
     conhecimento: "Básico",
     texto:
-      "O framework que mais me chama atenção, ainda estou na fase de estudos mas mesmo assim acredito que será meu framework favorito pois <b>PHP</b> que vejo como uma das liguagens mais completa do mercado, e a facilidade e rapidez me chama muita atenção principalmente por ele usar o ORM e arquitetura de software MVC.",
+      "O framework que mais me chama atenção, ainda estou na fase de estudos mas mesmo assim acredito que será meu framework favorito pois <b>PHP</b> que vejo como uma das linguagens mais completa do mercado, e a facilidade e rapidez me chama muita atenção principalmente por ele usar o ORM e arquitetura de software MVC.",
     url: "./assets/img/icons/Laravel-icon.svg",
     alt: "Laravel ícone",
   },
@@ -59,7 +59,7 @@ const iconsData = [
     title: "Spring Boot",
     conhecimento: "Básico",
     texto:
-      "Na matéria de (APS2) Análise e Projeto de Software II, foi proposto um projeto real e a linguagem que melhor se encaixa no projeto  foi o <b>JAVA</b> e  por isso o time de desenvolvimento optou por utilizar o framework e por essa razão estou estudado ele principalmente na criação de APIrestful",
+      "Na matéria de (APS2) Análise e Projeto de Software II, foi proposto um projeto real e a linguagem que melhor se encaixa no projeto  foi o <b>JAVA</b> e  por isso o time de desenvolvimento optou por utilizar o framework e por essa razão estou estundado ele principalmente na criação de APIrestful",
     url: "./assets/img/icons/spring_boot-icon.svg",
     alt: "Spring Boot ícone",
   },
@@ -150,7 +150,7 @@ const iconsData = [
   },
   {
     id: 17,
-    title: "Indiomas",
+    title: "Idiomas",
     conhecimento: "Avançado",
     texto:
       "Hoje eu estudo ou falo 3 línguas O <b>Portugues, Espanhol e o Inglês</b><br/> Portugues já sou fluente já que é minha língua materna. <br/> Espanhol já tenho uma facilidade na compreensão porém um pouco de dificuldade com os falsos cognatos<br/> E atualmente estou estudando o inglês pois acredito que deve ser um soft skill fundamental para todos os programadores ",
