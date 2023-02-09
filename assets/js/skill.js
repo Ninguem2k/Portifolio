@@ -40,7 +40,7 @@ const iconsData = [
     title: "Laravel",
     conhecimento: "Básico",
     texto:
-      "O framework que mais me chama atenção, ainda estou na fase de estudos mas mesmo assim acredito que será meu framework favorito pois <b>PHP</b> que vejo como uma das linguagens mais completa do mercado, e a facilidade e rapidez me chama muita atenção principalmente por ele usar o ORM e arquitetura de software MVC.",
+      "Como programador Laravel, posso dizer que o framework tem sido uma das minhas paixões na carreira. Embora ainda esteja em processo de aprendizado, acredito que o framework laravel seja minha principal hard-skills. Isso se deve ao fato de o Laravel ser baseado na linguagem PHP, que é considerada uma das mais completas no mercado. Além disso, a facilidade e velocidade de desenvolvimento são características que me atraem bastante, especialmente com o uso do ORM e da arquitetura de software MVC.",
     url: "./assets/img/icons/Laravel-icon.svg",
     alt: "Laravel ícone",
   },
