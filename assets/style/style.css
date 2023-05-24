@@ -402,7 +402,8 @@ footer .networks a:hover {
     margin: 0.1em;
     width: 3em !important;
 }
-scroll-mini-container {
+
+.scroll-mini-container {
     scrollbar-width: thin;
     scrollbar-color: transparent;
     overflow: auto;
