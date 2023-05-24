@@ -4,92 +4,90 @@ const iconsData = [
     title: "HTML",
     conhecimento: "Avançado",
     texto:
-      "Possuo conhecimento avançado na utilização <b>HTML</b> focando sempre na implantação de uma correta estrutura semântica com as tags modernas do <b>HTML 5</b>.",
+      "Possuo um conhecimento avançado na utilização do <b>HTML</b>, focando sempre na implantação de uma correta estrutura semântica com as tags modernas do <b>HTML5</b>.",
     url: "./assets/img/icons/htmlIcon.svg",
-    alt: "html ícone",
+    alt: "ícone HTML",
   },
   {
     id: 02,
     title: "CSS",
     conhecimento: "Avançado",
     texto:
-      "O <b>CSS</b> é uma das minhas ferramentas preferidas independentemente de sua implantação, possuo conhecimento avançado em mais diversas utilizações principalmente propriedades fundamentais como o <b>Flex</b> e o <b>Grid</b> ",
+      "O <b>CSS</b> é uma das minhas ferramentas preferidas, possuindo conhecimento avançado em diversas utilizações, principalmente em propriedades fundamentais como <b>Flex</b> e <b>Grid</b>.",
     url: "./assets/img/icons/cssIcon.svg",
-    alt: "css ícone",
+    alt: "ícone CSS",
   },
   {
     id: 03,
     title: "JavaScript",
     conhecimento: "Avançado",
     texto:
-      "<b>JS</b> é uma das linguagens que mais utilizo, por sua facilidade e rapidez principalmente para criar páginas dinâmicas usando <b>Xrm</b>",
+      "<b>JavaScript</b> é uma das linguagens que mais utilizo, devido à sua facilidade e rapidez, especialmente na criação de páginas dinâmicas usando <b>React</b>.",
     url: "./assets/img/icons/jsIcon.svg",
-    alt: "java script ícone",
+    alt: "ícone JavaScript",
   },
   {
     id: 04,
     title: "PHP",
     conhecimento: "Intermediário - Avançado",
     texto:
-      "Desde a primeira vez que utilizei tenho o <b>PHP</b> como minha linguagem de programação favorita, possuo conhecimento avançado em diversos de seus aspectos, seja em seus paradigmas, com funções construtoras ou classes.",
+      "Desde a primeira vez que utilizei, tenho o <b>PHP</b> como minha linguagem de programação favorita. Possuo conhecimento avançado em diversos aspectos, seja em paradigmas, funções construtoras ou classes.",
     url: "./assets/img/icons/php-icon.svg",
-    alt: "PHP ícone",
+    alt: "ícone PHP",
   },
   {
     id: 05,
     title: "Laravel",
-    conhecimento: "Básico",
+    conhecimento: "Avançado",
     texto:
-      "Como programador Laravel, posso dizer que o framework tem sido uma das minhas paixões na carreira. Embora ainda esteja em processo de aprendizado, acredito que o framework laravel seja minha principal hard-skills. Isso se deve ao fato de o Laravel ser baseado na linguagem PHP, que é considerada uma das mais completas no mercado. Além disso, a facilidade e velocidade de desenvolvimento são características que me atraem bastante, especialmente com o uso do ORM e da arquitetura de software MVC.",
+      "Como programador Laravel, posso dizer que o framework tem sido uma das minhas paixões na carreira. Acredito que o Laravel seja minha principal hard-skills. O Laravel é baseado na linguagem PHP, que é considerada uma das mais completas no mercado. Além disso, a facilidade e velocidade de desenvolvimento são características que me atraem bastante, especialmente com o uso do ORM e da arquitetura de software MVC.",
     url: "./assets/img/icons/Laravel-icon.svg",
-    alt: "Laravel ícone",
+    alt: "ícone Laravel",
   },
   {
     id: 07,
-    title: "JAVA",
+    title: "Java",
     conhecimento: "Básico - Intermediário",
     texto:
-      "Eu aprendi algoritmo ou seja lógica de programação com <b>PASCAL</b> no primeiro ano do ensino Técnico e no segundo ano na matéria desenvolvimento de sistema foi utilizado a linguagem <b>JAVA</b> e na faculdade na matéria de LTP2 (Linguagens e Técnicas de Programação) a linguagem foi utilizada.",
+      "Aprendi algoritmo e lógica de programação com <b>Pascal</b> no primeiro ano do ensino Técnico. No segundo ano, na matéria de desenvolvimento de sistemas, foi utilizado a linguagem <b>Java</b>. Na faculdade, na matéria de LTP2 (Linguagens e Técnicas de Programação), a linguagem também foi utilizada.",
     url: "./assets/img/icons/javaicon.svg",
-    alt: "JAVA ícone",
+    alt: "ícone Java",
   },
-
   {
     id: 08,
     title: "Spring Boot",
     conhecimento: "Básico",
     texto:
-      "Na matéria de (APS2) Análise e Projeto de Software II, foi proposto um projeto real e a linguagem que melhor se encaixa no projeto  foi o <b>JAVA</b> e  por isso o time de desenvolvimento optou por utilizar o framework e por essa razão estou estundado ele principalmente na criação de APIrestful",
+      "Na matéria de APS2 (Análise e Projeto de Software II), foi proposto um projeto real e a linguagem que melhor se encaixou foi o <b>Java</b>. Por isso, o time de desenvolvimento optou por utilizar o framework Spring Boot, e, por essa razão, estou estudando principalmente a criação de APIs RESTful com ele.",
     url: "./assets/img/icons/spring_boot-icon.svg",
-    alt: "Spring Boot ícone",
+    alt: "ícone Spring Boot",
   },
   {
     id: 06,
     title: "Bootstrap",
     conhecimento: "Intermediário",
     texto:
-      "Uma das primeiras ferramentas que aprendi foi o <b>Bootstrap</b> para a criação de layouts concisos e responsivos de maneira mais rápida, possuo conhecimento na implementação do seu sistema de <b>Grid</b> com rows e columns ",
+      "Uma das primeiras ferramentas que aprendi foi o <b>Bootstrap</b>, que permite a criação de layouts concisos e responsivos de maneira mais rápida. Possuo conhecimento na implementação de seu sistema de <b>Grid</b> com rows e columns.",
     url: "./assets/img/icons/bootstrapIcon.svg",
-    alt: "bootstrap ícone",
+    alt: "ícone Bootstrap",
   },
   {
     id: 09,
     title: "Git",
     conhecimento: "Intermediário - Avançado",
     texto:
-      "O <b>Git</b> se apresenta como uma das principais ferramentas para um desenvolvedor, possuo conhecimento em seus processos para <b>controle de versão</b>, para realização de clonagem, pull, push, merge, etc.",
+      "O <b>Git</b> é uma das principais ferramentas para controle de versão e sou bastante experiente em seu uso. Possuo conhecimento em processos como clonagem, pull, push, merge, etc.",
     url: "./assets/img/icons/gitIcon.svg",
-    alt: "git ícone",
+    alt: "ícone Git",
   },
-
   {
     id: 10,
-    title: "Github",
+    title: "GitHub",
     conhecimento: "Intermediário - Avançado",
     texto:
-      "O <b>Github</b> cada vez mais se torna algo essencial por complementar a utilização do <b>Git</b>, possuo conhecimento em sua utilização como desenvolvedor, para manutenção de repositórios ou mesmo funcionalidades relacionadas a utilização do seu provider",
+      "O <b>GitHub</b> se tornou essencial para complementar a utilização do Git. Possuo conhecimento em sua utilização como desenvolvedor, para manutenção de repositórios e aproveito várias funcionalidades oferecidas pela plataforma.",
     url: "./assets/img/icons/githubIcon.svg",
-    alt: "github ícone",
+    alt: "ícone GitHub",
   },
   {
     id: 11,
