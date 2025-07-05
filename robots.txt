@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ninguem2k.github.io/Portfolio/sitemap.xml
+
+# Disallow specific files
+Disallow: /assets/data/
+Disallow: /assets/pdfs/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Allow important directories
+Allow: /assets/img/
+Allow: /assets/style/
+Allow: /assets/js/
+
+# Crawl delay (optional)
+Crawl-delay: 1 

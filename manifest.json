@@ -1,0 +1,43 @@
+{
+  "name": "Cássio Gabriel - Portfólio",
+  "short_name": "Cássio Gabriel",
+  "description": "Portfólio pessoal de Cássio Gabriel - Desenvolvedor Full Stack",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#a03cff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/img/logoCG.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logoCG.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "assets/img/logoCG.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["business", "productivity", "utilities"],
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "screenshots": [
+    {
+      "src": "assets/img/cover.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Tela principal do portfólio"
+    }
+  ]
+} 

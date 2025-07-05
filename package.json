@@ -1,0 +1,51 @@
+{
+  "name": "cassio-gabriel-portfolio",
+  "version": "1.0.0",
+  "description": "Portfólio pessoal de Cássio Gabriel - Desenvolvedor Full Stack",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000 -o",
+    "dev": "live-server --port=8000 --open=/",
+    "build": "echo 'Build completed'",
+    "lint": "echo 'Linting completed'",
+    "test": "echo 'Tests completed'"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "fullstack",
+    "php",
+    "laravel",
+    "react",
+    "javascript",
+    "html",
+    "css",
+    "bootstrap"
+  ],
+  "author": {
+    "name": "Cássio Gabriel Lemos Vieira",
+    "email": "cassioriachi0nho@gmail.com",
+    "url": "https://github.com/Ninguem2k"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ninguem2k/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ninguem2k/Portfolio/issues"
+  },
+  "homepage": "https://ninguem2k.github.io/Portfolio/",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
