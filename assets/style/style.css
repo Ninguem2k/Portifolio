@@ -7,15 +7,15 @@
     --orange: #fd7e14;
     --yellow: #ffc107;
     --blue: #0d6efd;
+    --purple: #a03cff;  
     --indigo: #6610f2;
-    --purple: #6f42c1;
     --primary: #0d6efd;
     --success: #198754;
     --warning: #ffc107;
     --danger: #dc3545;
     --info: #0dcaf0;
     --light: #f8f9fa;
-    --dark-blue: #212529;
+    --dark-purple: #212529;
     --steel: #495057;
     --navy: #1e3a8a;
     --charcoal: #2d3748;
@@ -67,7 +67,7 @@ a:hover {
 }
 
 strong {
-    color: var(--blue);
+    color: var(--purple);
 }
 
 /* Navegação */
@@ -88,7 +88,7 @@ strong {
 }
 
 .nav-link:hover {
-    color: var(--blue) !important;
+    color: var(--purple) !important;
 }
 
 .nav-link::after {
@@ -98,7 +98,7 @@ strong {
     height: 2px;
     bottom: 0;
     left: 50%;
-    background-color: var(--blue);
+    background-color: var(--purple);
     transition: all 0.3s ease;
     transform: translateX(-50%);
 }
@@ -253,7 +253,7 @@ strong {
 }
 
 .scroll-toolskill::-webkit-scrollbar-thumb {
-    background: var(--blue);
+    background: var(--purple);
     border-radius: 1rem;
 }
 
@@ -267,7 +267,7 @@ strong {
 }
 
 .tooSelected {
-    border: 2px solid var(--blue);
+    border: 2px solid var(--purple);
     padding: 5px;
     background: rgba(13, 110, 253, 0.1);
     border-radius: 10px;
@@ -290,7 +290,7 @@ strong {
 
 .game-title {
     font-size: 2rem;
-    color: var(--blue);
+    color: var(--purple);
     margin-bottom: 1rem;
     text-shadow: 0 0 10px rgba(13, 110, 253, 0.3);
 }
@@ -307,7 +307,7 @@ strong {
     padding: 1.5rem;
     background: linear-gradient(135deg, rgba(13, 110, 253, 0.1), rgba(13, 110, 253, 0.05));
     border-radius: 15px;
-    border-left: 5px solid var(--blue);
+    border-left: 5px solid var(--purple);
     font-style: italic;
     font-size: 1.1rem;
     box-shadow: 0 5px 15px rgba(13, 110, 253, 0.2);
@@ -336,7 +336,7 @@ strong {
     width: 50px;
     height: 50px;
     text-align: center;
-    border: 3px solid var(--blue);
+    border: 3px solid var(--purple);
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.1);
     color: var(--white);
@@ -443,7 +443,7 @@ strong {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, var(--blue), var(--steel), var(--navy));
+    background: linear-gradient(90deg, var(--purple), var(--steel), var(--navy));
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
@@ -475,7 +475,7 @@ strong {
 }
 
 .card-project-main .card-title {
-    color: var(--blue);
+    color: var(--purple);
     font-size: 1.3rem;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -497,7 +497,7 @@ strong {
 }
 
 .tech-badge {
-    background: linear-gradient(135deg, var(--blue), var(--steel));
+    background: linear-gradient(135deg, var(--purple), var(--steel));
     color: white;
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
@@ -513,7 +513,7 @@ strong {
 
 .project-link {
     display: inline-block;
-    background: linear-gradient(135deg, var(--blue), var(--steel));
+    background: linear-gradient(135deg, var(--purple), var(--steel));
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 25px;
@@ -563,7 +563,7 @@ strong {
 }
 
 .search-section .input-group-text {
-    background: var(--blue);
+    background: var(--purple);
     border: none;
     color: var(--white);
 }
@@ -589,7 +589,7 @@ strong {
 }
 
 .filter-title {
-    color: var(--blue);
+    color: var(--purple);
     font-weight: bold;
     margin-bottom: 1rem;
 }
@@ -618,8 +618,8 @@ strong {
 
 .filter-btn:hover,
 .filter-btn.active {
-    background: linear-gradient(135deg, var(--blue), var(--steel));
-    border-color: var(--blue);
+    background: linear-gradient(135deg, var(--purple), var(--steel));
+    border-color: var(--purple);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(13, 110, 253, 0.3);
 }
@@ -663,16 +663,16 @@ strong {
 }
 
 .pagination .page-link:hover {
-    background: linear-gradient(135deg, var(--blue), var(--steel));
-    border-color: var(--blue);
+    background: linear-gradient(135deg, var(--purple), var(--steel));
+    border-color: var(--purple);
     color: var(--white);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(13, 110, 253, 0.4);
 }
 
 .pagination .page-link.active {
-    background: linear-gradient(135deg, var(--blue), var(--steel));
-    border-color: var(--blue);
+    background: linear-gradient(135deg, var(--purple), var(--steel));
+    border-color: var(--purple);
     box-shadow: 0 5px 15px rgba(13, 110, 253, 0.4);
 }
 
@@ -837,7 +837,7 @@ strong {
 }
 
 .scroll-container::-webkit-scrollbar-thumb {
-    background: var(--blue);
+    background: var(--purple);
     border-radius: 10px;
 }
 
@@ -997,7 +997,7 @@ footer {
 }
 
 footer small a {
-    color: var(--blue);
+    color: var(--purple);
     transition: color 0.3s ease;
 }
 
@@ -1036,7 +1036,7 @@ footer .networks a {
 }
 
 footer .networks a:hover {
-    background: var(--blue);
+    background: var(--purple);
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(13, 110, 253, 0.4);
 }
@@ -1067,7 +1067,7 @@ footer .networks a:hover {
 a:focus,
 button:focus,
 input:focus {
-    outline: 2px solid var(--blue);
+    outline: 2px solid var(--purple);
     outline-offset: 2px;
 }
 
